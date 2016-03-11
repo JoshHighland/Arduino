@@ -93,8 +93,8 @@ void advanceLed() {
 }
 
 void loop() {
-  advanceLed();
   row(r);
   col(c);
   delay(1);
+  advanceLed();
 }
