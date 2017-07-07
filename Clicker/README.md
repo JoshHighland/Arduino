@@ -45,14 +45,14 @@ Connecting to Arduino
 
 Program the Arudino to blink
 ============================
-Download the Arudio.CC 1.8.3 (or newer) IDE from https://www.arduino.cc/en/Main/Software
-Install the application
-Run the IDE.
-Load the blink example (LoadBlinkArduinoExample.png)       File-Examples-01.Basics-Blink
-Choose your Arduino board (ChooseArduino.png)              Tools-Board-Arduino/Genuino Uno
-Connect the USB cable between Arduino and the computer
-Choose the port with the Arduino attached                  Tools-Port-COM3
-Upload your program to the Arduino (UploadToArduino.png)   Sketch-Upload
+- Download the Arudio.CC 1.8.3 (or newer) IDE from https://www.arduino.cc/en/Main/Software
+- Install the application
+- Run the IDE.
+- Load the blink example (LoadBlinkArduinoExample.png)       File-Examples-01.Basics-Blink
+- Choose your Arduino board (ChooseArduino.png)              Tools-Board-Arduino/Genuino Uno
+- Connect the USB cable between Arduino and the computer
+- Choose the port with the Arduino attached                  Tools-Port-COM3
+- Upload your program to the Arduino (UploadToArduino.png)   Sketch-Upload
 
 
 
@@ -63,20 +63,20 @@ Touch the driver against a touch screen and it should start tapping.
 
 Connect a second touch driver
 =============================
-Connect the 5V wire from the touch driver to the breadboard's +5 rail.
-Connect the GND wire from the driver to the breadboard's GND rail.
-Conenct EN pin from the driver to a row of the breadboard (like row 3).
-Connect pin 11 of the Arduino to the same row as the EN driver (row 3 in our example).
+- Connect the 5V wire from the touch driver to the breadboard's +5 rail.
+- Connect the GND wire from the driver to the breadboard's GND rail.
+- Conenct EN pin from the driver to a row of the breadboard (like row 3).
+- Connect pin 11 of the Arduino to the same row as the EN driver (row 3 in our example).
 
 
 
 Program the Arudino to blink both
 =================================
-Load the Clicker.ino file from this web site.
-Choose your Arduino board (ChooseArduino.png)              Tools-Board-Arduino/Genuino Uno
-Connect the USB cable between Arduino and the computer
-Choose the port with the Arduino attached                  Tools-Port-COM3
-Upload your program to the Arduino (UploadToArduino.png)   Sketch-Upload
+- Load the Clicker.ino file from this web site.
+- Choose your Arduino board (ChooseArduino.png)              Tools-Board-Arduino/Genuino Uno
+- Connect the USB cable between Arduino and the computer
+- Choose the port with the Arduino attached                  Tools-Port-COM3
+- Upload your program to the Arduino (UploadToArduino.png)   Sketch-Upload
 
 
 
@@ -84,6 +84,8 @@ At this point the first relay driver should tap 3 times, followed by the other c
 The pattern should repeat.
 
 
-Edit the code to click faster (instead of "500" replace with "100" and it should click every 0.100 seconds).
-Edit the code to click in a different pattern.
+Explore
+=======
+1) Edit the code to click faster (instead of "500" replace with "100" and it should click every 0.100 seconds).
+2) Edit the code to click in a different pattern.
  
