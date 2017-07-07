@@ -26,20 +26,20 @@ The touch driver I bought had no wires on the one I bought, so I had to solder 3
 Be very careful to make sure the solder for each wire is only on one pad.  
 The three pads are labeled 5V, GND & EN.
 If you have your choice of wire colors, I would recommend soldering one end of:
-   a red wire to the +5V pad
-   a blue wire to the GND pad
-   a yellow wire to the EN pad
+1) a red wire to the +5V pad
+2) a blue wire to the GND pad
+3) a yellow wire to the EN pad
 
 
 
 Connecting to Arduino
 =====================
-Connect the 5V wire from the touch driver to the breadboard's +5 rail.
-Connect the GND wire from the driver to the breadboard's GND rail.
-Connect the EN wire from the driver to a row of the breadboard (like row 16).
-Connect the 5V pin of Arduino to the breadboard's +5 rail.
-Connect one of the GND pins of the Arduino to the breadboard's GND rail.
-Connect pin 13 of the Arduino to the same row as the EN driver (row 16 in our above example).
+- Connect the 5V wire from the touch driver to the breadboard's +5 rail.
+- Connect the GND wire from the driver to the breadboard's GND rail.
+- Connect the EN wire from the driver to a row of the breadboard (like row 16).
+- Connect the 5V pin of Arduino to the breadboard's +5 rail.
+- Connect one of the GND pins of the Arduino to the breadboard's GND rail.
+- Connect pin 13 of the Arduino to the same row as the EN driver (row 16 in our above example).
 
 
 
